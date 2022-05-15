@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 //            startActivity(intent);
 
             //STEP #5: playing the video using video view by getting the path.
+            //RESOURCE: https://parallelcodes.com/android-how-to-play-videos-using-videoview/
             mediaController = new MediaController(this);
             mediaController.setAnchorView(videoview);
 
